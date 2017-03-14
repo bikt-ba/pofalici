@@ -1,5 +1,7 @@
-<?php get_header(); ?>
+<?php  get_header();  ?>
 
-	<h1>Ovo je nasa prva index stranica</h1>
 
-<?php get_footer(); ?>
+<h1>Ovo je pocetna index stranica za nasu prvu kreiranu Temu</h1>
+
+
+<?php  get_footer();  ?>

@@ -8,3 +8,16 @@ function pofalici_script_enqueue() {
 }
 
 add_action( 'wp_enqueue_scripts', 'pofalici_script_enqueue');
+
+
+
+
+function pofalici_theme_setup(){
+
+  add_theme_support('menus');
+  register_nav_menu('primary', 'Primary Main Navigation');
+  register_nav_menu('secondary', 'Footer Navigation');
+
+}
+
+add_action('init', 'pofalici_theme_setup');

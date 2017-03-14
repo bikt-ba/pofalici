@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Pofalici</title>
-		<?php wp_head(); ?>
-	</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Pofalici</title>
+    <?php wp_head(); ?>
+  </head>
+  <body>
 
-	<body>
+    <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
